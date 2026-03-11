@@ -53,23 +53,102 @@
 //}
 
 
-int[] arr = new int[] { 10, 12, 22, 10, 32,22, 16, 32, 22, 10, 11, 23, 32, 10, 10, 23, 23, 15 };
-int say = arr.Length;
-int count = 1;
+//int[] arr = new int[] { 10, 12, 22, 10, 32,22, 16, 32, 22, 10, 11, 23, 32, 10, 10, 23, 23, 15 };
+//int say = arr.Length;
+//int count = 1;
 
-for(int i = 0; i < arr.Length; i++)
-{
+//for(int i = 0; i < arr.Length; i++)
+//{
 
-    for(int j = 1; j < arr.Length-1; j++)
-    {
-        if (arr[i] != arr[j])
-        {
-            count++;
-        }
-    }
-    
-}
-Console.WriteLine(count);
+//    for(int j = 1; j < arr.Length-1; j++)
+//    {
+//        if (arr[i] != arr[j])
+//        {
+//            count++;
+//        }
+//    }
+
+//}
+//Console.WriteLine(count);
+
+
+
+//-----------------------------------------------------------------------------
+
+
+//DetectedMax(12, 34);
+
+
+// static void DetectedMax(int birinci_eded,int ikinci_eded)
+//{
+//    if(birinci_eded>ikinci_eded)
+//        Console.WriteLine($"Birinci eded boyukdur:{birinci_eded}");
+
+//    else if(birinci_eded==ikinci_eded)
+//        Console.WriteLine("Ededler beraberdir");
+
+//    else
+//        Console.WriteLine( $"Ikinci eded boyukdur:{ikinci_eded}");
+//}          
+
+
+//Dividebytwo(77);
+//static void Dividebytwo(int eded)
+//{
+//    if(eded%2==0)
+//        Console.WriteLine("Eded 2-e tam bolunur");
+//    else
+//        Console.WriteLine("Eded 2-e bolunmur");
+//}
+
+
+//Console.Write("Ededi daxil edin:");
+//int eded = Convert.ToInt32(Console.ReadLine());
+//MoreThanOneHundred(eded);
+//static void MoreThanOneHundred(int daxiledilen_eded)
+//{
+//    if(daxiledilen_eded>=100)
+//        Console.WriteLine("Eded 100-den boyukdur");
+//    else
+//        Console.WriteLine("Eded 100-den kicikdir");
+//}
+
+//Console.WriteLine("Yasi daxil edin:");
+//int yas = Convert.ToInt32(Console.ReadLine());
+//CheckAdultorChild(yas);
+
+//static void CheckAdultorChild(int yas)
+//{
+//    if(yas>=18)
+//        Console.WriteLine("Adult");
+//    else
+//        Console.WriteLine("Child");
+//}
+
+
+//Console.WriteLine("Ededi daxil edin:");
+//int eded = Convert.ToInt32(Console.ReadLine());
+//DetectedNumberMark(eded);
+//static void DetectedNumberMark(int eded)
+//{
+//    if(eded<0)
+//        Console.WriteLine("Eded menfidir");
+//    else if(eded==0)
+//        Console.WriteLine("Eded 0-dir");
+//    else
+//        Console.WriteLine("Eded musbetdir");
+//}
+
+
+//Console.WriteLine("Ededi daxil edin:");
+//int eded = Convert.ToInt32(Console.ReadLine());
+//Detectedcubed(eded);
+//static void Detectedcubed(int eded)
+//{
+//    int result = Convert.ToInt32(Math.Pow(eded, 3));
+//    Console.WriteLine(result);
+//}
+
 
 
 
